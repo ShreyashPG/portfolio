@@ -23,16 +23,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Peng-Yu Chen',
+  title: 'Shreyash Ghanekar',
   description: siteConfig.description,
   keywords: ['Software', 'Web'],
   authors: [
     {
-      name: 'Peng-Yu Chen',
+      name: 'Shreyash Ghanekar',
       url: siteConfig.url,
     },
   ],
-  creator: 'Peng-Yu Chen',
+  creator: 'Shreyash Ghanekar',
 };
 interface RootLayoutProps {
   children: React.ReactNode;

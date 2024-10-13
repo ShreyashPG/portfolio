@@ -7,8 +7,8 @@ export function Hero() {
         <h3 className="mb-2 pl-1 text-lg leading-6 text-highlight">
           Hi all. I am
         </h3>
-        <h6 className="text-6xl text-highlight">Peng-Yu</h6>
-        <h6 className="text-6xl text-highlight">Chen</h6>
+        <h6 className="text-6xl text-highlight">Shreyash</h6>
+        <h6 className="text-6xl text-highlight">Ghanekar</h6>
         <h3 className="pl-1 text-lg font-medium text-theme-green">
           {'>'} Software Engineer
         </h3>

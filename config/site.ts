@@ -1,11 +1,11 @@
 import { SiteConfig } from '@/types';
 
 export const siteConfig: SiteConfig = {
-  name: 'Chen, Peng-Yu',
-  description: 'Peng-Yu Chen | Software Engineer',
-  url: 'https://pengyuc.com',
+  name: 'Shreyash Ghanekar',
+  description: 'Shreyash Ghanekar | Software Engineer',
+  url: 'http://localhost:3000/',
   links: {
-    twitter: 'https://twitter.com/pengyuc_',
-    github: 'https://github.com/walkccc',
+    twitter: 'https://x.com/Shreyasghn09',
+    github: 'https://github.com/ShreyashPG',
   },
 };

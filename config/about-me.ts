@@ -4,8 +4,8 @@ export const aboutMeConfig: AboutMeItemProps[] = [
   {
     title: 'Bio',
     paragraphs: [
-      "Hi, I'm Peng-Yu Chen, originally from the beautiful island of Penghu in Taiwan.",
-      'Currently working as a Software Engineer in NYC, I enjoy creating real-life applications that bring tangible benefits to people.',
+      "Hi, I'm Shreyash Ghanekar,  from  Pune.",
+      'Currently in my 3rd year persuing my Bachelors in Information Technology in Pune Institute of Computer Technology, I enjoy solving DSA problems and creating web applications.',
       'Fascinated by remarkable software practices and engineering excellence, my belief in following good coding conventions remains unwavering.',
     ],
     folderColor: 'text-theme-blue',
@@ -13,18 +13,18 @@ export const aboutMeConfig: AboutMeItemProps[] = [
   {
     title: 'Fun Facts',
     paragraphs: [
-      "Wendy's Chicken is my first meal in the US.",
-      'C is the first programming language I learned.',
-      'I know a little Japanese.',
-      'I watch animes.',
-      'My cat is named "Lola".',
+      "Konkan is my favourite region to travel ",
+      'C++ is the first programming language I learned.',
+      'I read books.',
+      'I am a singer and dancer at my home.',
+      'Rescued more than 10 cats and dogs from cruel people.',
     ],
     folderColor: 'text-theme-green',
   },
   {
     title: 'Keywords',
     paragraphs: [
-      'Coding, Traveling, Workout, Swimming, Walking, Foodie, Reading, Dry weather, Snow.',
+      'Coding, Traveling, Workout, Walking, Reading, Rains .',
     ],
     folderColor: 'text-theme-red',
   },
