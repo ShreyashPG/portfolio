@@ -7,5 +7,6 @@ export const siteConfig: SiteConfig = {
   links: {
     twitter: 'https://x.com/Shreyasghn09',
     github: 'https://github.com/ShreyashPG',
+    linkedin: 'https://www.linkedin.com/in/shreyash-ghanekar-584217192/'
   },
 };

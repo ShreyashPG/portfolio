@@ -2,9 +2,9 @@ import { WorkExperienceItemProps } from '@/components/work-experience-item';
 
 export const workExperienceConfig: WorkExperienceItemProps[] = [
   {
-    company: 'google',
+    company: 'Pune Institute of Computer Technology',
     title: 'Frontend and Database Developer ',
-    date: 'June 2024 - Present',
+    date: 'March 2024 - September 2024',
     location: 'I.T Department , P.I.C.T Pune',
     descriptions: [
       "Developed the frontend of a platform for managing student and staff data using React.js, improving user experience and automating data entry processes to enhance accuracy and reduce manual input errors." ,
