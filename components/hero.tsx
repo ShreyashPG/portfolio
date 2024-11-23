@@ -31,6 +31,24 @@ export function Hero() {
           <span className="text-sm">;</span>
         </p>
       </div>
+      <div className="space-y-4 text-sm">
+        <h3 className="text-theme-gray">{'//'} Find my profile on Linkedin.</h3>
+        <p className="font-medium">
+          <span className="text-sm text-theme-blue">
+            constexpr std::string_view{' '}
+          </span>
+          <span className="text-sm text-theme-green ">linkedinLink </span>
+          <span className="text-sm">= </span>
+          <a href={siteConfig.links.linkedin}>
+            <span className="text-sm text-theme-red hover:text-hover">
+              {'"'}
+              {siteConfig.links.linkedin}
+              {'"'}
+            </span>
+          </a>
+          <span className="text-sm">;</span>
+        </p>
+      </div>
     </div>
   );
 }
