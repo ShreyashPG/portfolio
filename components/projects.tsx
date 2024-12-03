@@ -6,6 +6,7 @@ export interface ProjectItemProps {
     date: string;
     techstack: string;
     descriptions: string[];
+    link:string;
   }
 
 
@@ -16,6 +17,7 @@ export function ProjectItem({
     date,
     techstack,
     descriptions,
+    link,
 
 }:ProjectItemProps) {
 
@@ -34,6 +36,7 @@ return (
     </summary>
     <div className="space-y-1.5 py-1 pl-12 text-sm md:text-base">
       <div className="text-xs font-extralight">{date}</div>
+      <div className='text-xs font-extrabold'><a href={link}>live link</a></div>
       <div className="text-xs font-thin">{techstack}</div>
       <ul>
         {descriptions.map((description, index) => (

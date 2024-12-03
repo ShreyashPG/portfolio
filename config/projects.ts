@@ -4,7 +4,7 @@ import { ProjectItemProps } from "@/components/projects"
 export const projectsConfig :ProjectItemProps[]  =[
      
   {
-    title: 'GitHub Repository Management Tool',
+    title: 'GitHub Repository Management Tool ',
     date: ' August 2024 - September 2024',
     techstack: 'Bash , GitHub API, AWS EC2, Linux',
     descriptions: [
@@ -12,6 +12,7 @@ export const projectsConfig :ProjectItemProps[]  =[
       "The tool supports user authentication, access control, project tracking, workflow management, and pull request monitoring. It includes error handling, retry mechanisms, and dynamic user prompts for a seamless experience.",
       "The project simplifies repository and user interaction management on GitHub, offering a comprehensive solution for developers and repository administrators.", 
     ],
+    link: "",
   },
   {
     title: 'Huffman Compressor',
@@ -22,6 +23,7 @@ export const projectsConfig :ProjectItemProps[]  =[
       "The tool compresses text files into a .cmp format using Huffman encoding and decodes them back to .txt format, producing the compressed text of the original file.",
       "Utilizes Google Guava for efficient bi-directional mapping and UTF-8 encoding for reliable text compression and decompression.", 
     ],
+    link: ""
   },
     {
         title: 'Scheduler',
@@ -32,6 +34,7 @@ export const projectsConfig :ProjectItemProps[]  =[
           "The application supports multiple scheduling algorithms, including: FCFS (First-Come, FirstServed), Round Robin, Priority Scheduling, SJF (Shortest Job First)",
           "Key Features : Gantt Chart Generation, Performance Metrics Table, Comparison of Algorithms.", 
         ],
+        link: "https://scheduler-flax-five.vercel.app"
       },
       {
         title: 'Shadow Secret',
@@ -42,6 +45,7 @@ export const projectsConfig :ProjectItemProps[]  =[
           "The tool ensures confidential communication by encrypting messages with a user-provided password and securely storing them. Users can set expiration times for messages, which automatically delete after the specified duration.",
           "Used AES-256 encryption for messages using Crypto module for Secure storage and expiration mechanism for secret messages. ", 
         ],
+        link: "https://secret-pass-lovat.vercel.app‍"
       },
       { 
         title: 'Social Media App',
@@ -52,6 +56,7 @@ export const projectsConfig :ProjectItemProps[]  =[
           "Implemented RESTful APIs using Node.js and Express.js to handle user authentication, data retrieval, and CRUD operations.",
           "Tools and Libraries: Integrated tools such as Axios for HTTP requests, Bcrypt for password hashing, and Mongoose for MongoDB object modelling", 
         ],
+        link: ""
       }
 
 ]
