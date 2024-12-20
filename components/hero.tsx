@@ -14,10 +14,12 @@ export function Hero() {
         </h3>
       </div>
       <div className="space-y-4 text-sm">
-        <h3 className="text-theme-gray">{'//'} Find my profile on GitHub.</h3>
+        {/* <h3 className="text-theme-gray">{'//'} Find my profile on GitHub.</h3> */}
         <p className="font-medium">
+        <h3 className="text-theme-gray">{'//'} Find my profile on GitHub.</h3>
           <span className="text-sm text-theme-blue">
-            constexpr std::string_view{' '}
+            {/* constexpr std::string_view{' '} */}
+            {' '}
           </span>
           <span className="text-sm text-theme-green ">githubLink </span>
           <span className="text-sm">= </span>
@@ -32,10 +34,12 @@ export function Hero() {
         </p>
       </div>
       <div className="space-y-4 text-sm">
-        <h3 className="text-theme-gray">{'//'} Find my profile on Linkedin.</h3>
+        {/* <h3 className="text-theme-gray">{'//'} Find my profile on Linkedin.</h3> */}
         <p className="font-medium">
+        <h3 className="text-theme-gray">{'//'} Find my profile on Linkedin.</h3>
           <span className="text-sm text-theme-blue">
-            constexpr std::string_view{' '}
+            {/* constexpr std::string_view{' '} */}
+            {' '}
           </span>
           <span className="text-sm text-theme-green ">linkedinLink </span>
           <span className="text-sm">= </span>

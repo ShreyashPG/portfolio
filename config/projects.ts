@@ -5,7 +5,7 @@ export const projectsConfig :ProjectItemProps[]  =[
      
   {
     title: 'GitHub Repository Management Tool ',
-    date: ' August 2024 - September 2024',
+    date: 'September 2024',
     techstack: 'Bash , GitHub API, AWS EC2, Linux',
     descriptions: [
       "Developed and deployed a GitHub Repository Management Tool on AWS EC2, utilizing Bash scripting and the GitHub API to manage repositories and user data efficiently." ,
@@ -15,19 +15,19 @@ export const projectsConfig :ProjectItemProps[]  =[
     link: "",
   },
   {
-    title: 'Huffman Compressor',
-    date: ' August 2023',
-    techstack: 'JAVA , Huffman Encoding, Google Guava ',
+    title: 'AI Resume Builder',
+    date: ' August 2024',
+    techstack: ' Mern Stack ',
     descriptions: [
-      "Developed a Java-based text compression tool utilizing the Huffman encoding scheme for efficient file compression." ,
-      "The tool compresses text files into a .cmp format using Huffman encoding and decodes them back to .txt format, producing the compressed text of the original file.",
-      "Utilizes Google Guava for efficient bi-directional mapping and UTF-8 encoding for reliable text compression and decompression.", 
+      "Developed and deployed an AI-powered resume builder application that allows users to create, customize, and share resumes efficiently with AI-driven content generation and modern UI/UX features." ,
+      "Integrated Google AI API for dynamic content generation. Used Strapi for CMS and Clerk for secure authentication",
+      "Built responsive UI with React, Vite, and Tailwind CSS. Deployed on Hostinger and Renderer with resume sharing and download features. ", 
     ],
     link: ""
   },
     {
         title: 'Scheduler',
-        date: ' August 2024',
+        date: ' July 2024',
         techstack: 'React.js ',
         descriptions: [
           "Web-based scheduler application built in React.js that allows users to visualize and analyze various CPU scheduling" ,
@@ -48,13 +48,13 @@ export const projectsConfig :ProjectItemProps[]  =[
         link: "https://secret-pass-lovat.vercel.app‍"
       },
       { 
-        title: 'Social Media App',
-        date: 'December 2023',
-        techstack: 'MERN Stack',
+        title: 'Gym App',
+        date: 'November 2024',
+        techstack: 'Typescript , Tailwind CSS',
         descriptions: [
-          "Developed a full-stack social media application using the MERN stack, incorporating modern frontend and backend technologies." ,
-          "Implemented RESTful APIs using Node.js and Express.js to handle user authentication, data retrieval, and CRUD operations.",
-          "Tools and Libraries: Integrated tools such as Axios for HTTP requests, Bcrypt for password hashing, and Mongoose for MongoDB object modelling", 
+          "Developed a landing page for gym app using Typescript and Tailwind " ,
+          // "Implemented RESTful APIs using Node.js and Express.js to handle user authentication, data retrieval, and CRUD operations.",
+          // "Tools and Libraries: Integrated tools such as Axios for HTTP requests, Bcrypt for password hashing, and Mongoose for MongoDB object modelling", 
         ],
         link: ""
       }
