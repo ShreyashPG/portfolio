@@ -6,11 +6,11 @@ export const projectsConfig :ProjectItemProps[]  =[
   {
     title: 'GitHub Repository Management Tool ',
     date: 'September 2024',
-    techstack: 'Bash , GitHub API, AWS EC2, Linux',
+    techstack: 'Bash scripting, GitHub API, Linux (Ubuntu), AWS EC2, npm Package ',
     descriptions: [
-      "Developed and deployed a GitHub Repository Management Tool on AWS EC2, utilizing Bash scripting and the GitHub API to manage repositories and user data efficiently." ,
-      "The tool supports user authentication, access control, project tracking, workflow management, and pull request monitoring. It includes error handling, retry mechanisms, and dynamic user prompts for a seamless experience.",
-      "The project simplifies repository and user interaction management on GitHub, offering a comprehensive solution for developers and repository administrators.", 
+      "Developed a robust command-line tool to automate GitHub project workflows, authentication, and repository management, deployed on AWS EC2. " ,
+      "Implemented user authentication, access control, project tracking, and pull request monitoring, reducing manual management time by 20% ",
+      "Gained 200+ downloads, streamlining repository management for developers.", 
     ],
     link: "",
   },
