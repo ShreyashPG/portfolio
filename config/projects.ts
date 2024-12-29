@@ -15,13 +15,13 @@ export const projectsConfig :ProjectItemProps[]  =[
     link: "",
   },
   {
-    title: 'AI Resume Builder',
-    date: ' August 2024',
-    techstack: ' Mern Stack ',
+    title: 'Car Showroom ERP System',
+    date: ' December 2024',
+    techstack: ' React, Express.js, Node.js, MySQL, Tailwind CSS ',
     descriptions: [
-      "Developed and deployed an AI-powered resume builder application that allows users to create, customize, and share resumes efficiently with AI-driven content generation and modern UI/UX features." ,
-      "Integrated Google AI API for dynamic content generation. Used Strapi for CMS and Clerk for secure authentication",
-      "Built responsive UI with React, Vite, and Tailwind CSS. Deployed on Hostinger and Renderer with resume sharing and download features. ", 
+      "Developed a comprehensive ERP system tailored for managing car showroom operations. " ,
+      "Integrates key functionalities such as employee management, car sales tracking, inventory monitoring, and customer interactions to streamline business processes efficiently. ",
+      "Impact: Centralized data management, automated routine tasks, and improved operational efficiency with realtime analytics and reporting.", 
     ],
     link: ""
   },
