@@ -46,6 +46,14 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
                 {navItem.title}
               </Link>
             ))}
+            <Link
+              href="https://shreyash-ghanekar.tiiny.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
+            >
+              Resume
+            </Link>
           </nav>
           <button
             className="flex items-center space-x-2 md:hidden"

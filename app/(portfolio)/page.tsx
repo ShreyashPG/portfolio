@@ -28,6 +28,7 @@ export default function IndexPage() {
               <ProjectItem key={index} {...project} />
             ))}
           </Section>
+          
         </div>
       </div>
     </>
