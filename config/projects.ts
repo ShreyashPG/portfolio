@@ -28,11 +28,11 @@ export const projectsConfig :ProjectItemProps[]  =[
     link: ""
   },
     {
-        title: 'Scheduler',
+        title: 'Process Scheduler',
         date: ' July 2024',
         techstack: 'React.js ',
         descriptions: [
-          "Web-based scheduler application built in React.js that allows users to visualize and analyze various CPU scheduling" ,
+          "Web-based process scheduler application built in React.js that allows users to visualize and analyze various CPU scheduling" ,
           "The application supports multiple scheduling algorithms, including: FCFS (First-Come, FirstServed), Round Robin, Priority Scheduling, SJF (Shortest Job First)",
           "Key Features : Gantt Chart Generation, Performance Metrics Table, Comparison of Algorithms.", 
         ],
