@@ -6,22 +6,24 @@ export const projectsConfig :ProjectItemProps[]  =[
   {
     title: 'GitHub Repository Management Tool ',
     date: 'September 2024',
-    techstack: 'Bash scripting, GitHub API, Linux (Ubuntu), AWS EC2, npm Package ',
+    techstack: 'Bash scripting, GitHub API, Git, Linux (Ubuntu), AWS EC2 ',
     descriptions: [
-      "Developed a robust command-line tool to automate GitHub project workflows, authentication, and repository management, deployed on AWS EC2. " ,
-      "Implemented user authentication, access control, project tracking, and pull request monitoring, reducing manual management time by 20% ",
-      "Gained 200+ downloads, streamlining repository management for developers.", 
+      "Created a CLI-based tool for automating GitHub workflows, featuring seamless integration with the GitHub API." ,
+      "Deployed on AWS EC2, with secure user authentication, role-based access control, and efficient pull request monitoring.",
+      "Automated repository tracking and project management tasks, reducing manual effort by 20%.",
+      "Achieved 300+ downloads on npm, simplifying repository workflows for developers.", 
     ],
-    link: "",
+    link: "https://www.npmjs.com/package/my-github-manager",
   },
   {
     title: 'Car Showroom ERP System',
     date: ' December 2024',
     techstack: ' React, Express.js, Node.js, MySQL, Tailwind CSS ',
     descriptions: [
-      "Developed a comprehensive ERP system tailored for managing car showroom operations. " ,
-      "Integrates key functionalities such as employee management, car sales tracking, inventory monitoring, and customer interactions to streamline business processes efficiently. ",
-      "Impact: Centralized data management, automated routine tasks, and improved operational efficiency with realtime analytics and reporting.", 
+      "Designed a modular ERP system to streamline car showroom operations" ,
+      "Implemented a component-based architecture in React for efficient UI management and Tailwind CSS for consistent, responsive design.",
+      "Integrated REST APIs with Express.js and Node.js for real-time operations and MySQL for secure, relational data management.",
+      "Developed robust CRUD functionalities for employee, inventory, and sales tracking, ensuring seamless process automation.", 
     ],
     link: ""
   },
@@ -41,9 +43,9 @@ export const projectsConfig :ProjectItemProps[]  =[
         date: ' February 2024',
         techstack: 'Full Stack Project',
         descriptions: [
-          "Developed a secure and encrypted text-sharing web application using TypeScript,Tailwind, MongoDB, and Prisma" ,
-          "The tool ensures confidential communication by encrypting messages with a user-provided password and securely storing them. Users can set expiration times for messages, which automatically delete after the specified duration.",
-          "Used AES-256 encryption for messages using Crypto module for Secure storage and expiration mechanism for secret messages. ", 
+          "Built a highly secure text-sharing platform with end-to-end AES-256 encryption and robust data validation in TypeScript." ,
+          "Utilized Prisma ORM for optimized database queries and MongoDB for efficient, scalable data storage.",
+          "Developed expiration-based message auto-deletion and advanced password-protected message sharing to enhance security.", 
         ],
         link: "https://secret-pass-lovat.vercel.app‍"
       },
