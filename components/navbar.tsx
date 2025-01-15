@@ -63,7 +63,17 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
             <span className="font-bold">Menu</span>
           </button>
           {showMobileMenu && navItems && (
-            <MobileNav navItems={navItems}>{children}</MobileNav>
+            <MobileNav navItems={navItems}>
+            {children}
+            <Link
+              href="https://shreyash-ghanekar.tiiny.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
+            >
+              Resume
+            </Link>
+          </MobileNav>
           )}
         </div>
         <div className="flex items-center space-x-2">
