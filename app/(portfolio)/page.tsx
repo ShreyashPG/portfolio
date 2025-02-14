@@ -2,10 +2,12 @@ import { AboutMeItem } from '@/components/about-me-item';
 import { Hero } from '@/components/hero';
 import { ProjectItem } from '@/components/projects';
 import { Section } from '@/components/section';
+import { SkillsItem } from '@/components/skills-item';
 import { WorkExperienceItem } from '@/components/work-experience-item';
 import { aboutMeConfig } from '@/config/about-me';
 import { projectsConfig } from '@/config/projects';
 import { workExperienceConfig } from '@/config/work-experience';
+import { SkillsConfig } from '@/config/skills';
 
 export default function IndexPage() {
   return (
@@ -18,6 +20,12 @@ export default function IndexPage() {
               <AboutMeItem key={index} {...aboutMeItem} />
             ))}
           </Section>
+          <Section id="skills" title="Skills">
+            {SkillsConfig.map((skills, index) => (
+              <SkillsItem key={index} {...skills} />
+            ))}
+          </Section>
+          
           <Section id="work-experience" title="Work Experience">
             {workExperienceConfig.map((workExperience, index) => (
               <WorkExperienceItem key={index} {...workExperience} />

@@ -60,7 +60,11 @@ const config = {
           green: '#43D9AD',
           blue: '#4D5BCE',
           gray: '#607B96',
+        //   yellow: '#facc15',
+        // violet: '#8b5cf6', // Add this if missing
+        // orange: '#f97316', // Add this if missing
         },
+
       },
       borderRadius: {
         lg: 'var(--radius)',
