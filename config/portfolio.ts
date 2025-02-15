@@ -7,6 +7,10 @@ export const portfolioConfig: PortfolioConfig = {
       href: '/#about-me',
     },
     {
+      title: 'Skills',
+      href: '/#skills',
+    },
+    {
       title: 'Work Experience',
       href: '/#work-experience',
     },
