@@ -5,7 +5,7 @@ export const SkillsConfig: SkillsItemProps[] = [
   {
     title: 'Programming Languages:',
     paragraphs: [
-      " C, C++, Java, Python, Go (basic), JavaScript, TypeScript (basic), SQL, Bash",
+      " C, C++, Java, Python, Go, JavaScript, TypeScript, SQL, Bash",
 
     ],
     folderColor: 'text-theme-blue',
@@ -21,14 +21,14 @@ export const SkillsConfig: SkillsItemProps[] = [
   {
     title: 'Cloud & Infrastructure',
     paragraphs: [
-      'AWS (EC2, S3, RDS, DynamoDB) ',
+      'AWS, Docker',
     ],
     folderColor: 'text-theme-red',
   },
   {
     title: 'Databases',
     paragraphs: [
-      " MySQL, MongoDB",
+      " MySQL, MongoDB, DynomoDB",
 
     ],
     folderColor: 'text-theme-blue',
@@ -44,7 +44,7 @@ export const SkillsConfig: SkillsItemProps[] = [
   {
     title: 'Tools',
     paragraphs: [
-      " Postman, Git, GitHub, Linux (Ubuntu)",
+      " Postman, Git, GitHub, Linux (Ubuntu), JIRA",
 
     ],
     folderColor: 'text-theme-red',
