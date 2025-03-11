@@ -4,10 +4,11 @@ import { ProjectItem } from '@/components/projects';
 import { Section } from '@/components/section';
 import { SkillsItem } from '@/components/skills-item';
 import { WorkExperienceItem } from '@/components/work-experience-item';
+
 import { aboutMeConfig } from '@/config/about-me';
 import { projectsConfig } from '@/config/projects';
 import { workExperienceConfig } from '@/config/work-experience';
-import { SkillsConfig } from '@/config/skills';
+import { skillsConfig } from '@/config/skills';
 
 export default function IndexPage() {
   return (
@@ -21,7 +22,7 @@ export default function IndexPage() {
             ))}
           </Section>
           <Section id="skills" title="Skills">
-            {SkillsConfig.map((skills, index) => (
+            {skillsConfig.map((skills, index) => (
               <SkillsItem key={index} {...skills} />
             ))}
           </Section>

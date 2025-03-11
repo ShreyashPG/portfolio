@@ -1,7 +1,7 @@
 
 import { SkillsItemProps } from '@/components/skills-item';
 
-export const SkillsConfig: SkillsItemProps[] = [
+export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Programming Languages:',
     paragraphs: [
@@ -44,7 +44,7 @@ export const SkillsConfig: SkillsItemProps[] = [
   {
     title: 'Tools',
     paragraphs: [
-      " Postman, Git, GitHub, Linux (Ubuntu),Prisma ORM, JIRA",
+      " Postman, Git, GitHub, Linux (Ubuntu), Prisma ORM, JIRA",
 
     ],
     folderColor: 'text-theme-red',
