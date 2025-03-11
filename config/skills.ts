@@ -28,7 +28,7 @@ export const SkillsConfig: SkillsItemProps[] = [
   {
     title: 'Databases',
     paragraphs: [
-      " MySQL, MongoDB, DynomoDB",
+      " MySQL, MongoDB, AWS DynamoDB, Redis",
 
     ],
     folderColor: 'text-theme-blue',
@@ -44,7 +44,7 @@ export const SkillsConfig: SkillsItemProps[] = [
   {
     title: 'Tools',
     paragraphs: [
-      " Postman, Git, GitHub, Linux (Ubuntu), JIRA",
+      " Postman, Git, GitHub, Linux (Ubuntu),Prisma ORM, JIRA",
 
     ],
     folderColor: 'text-theme-red',
