@@ -47,7 +47,7 @@ export const projectsConfig :ProjectItemProps[]  =[
           "Utilized Prisma ORM for optimized database queries and MongoDB for efficient, scalable data storage.",
           "Developed expiration-based message auto-deletion and advanced password-protected message sharing to enhance security.", 
         ],
-        link: "https://secret-pass-lovat.vercel.app‍"
+        link: "https://secret-pass-lovat.vercel.app/"
       },
       { 
         title: 'Gym App',
