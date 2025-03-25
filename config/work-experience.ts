@@ -7,9 +7,9 @@ export const workExperienceConfig: WorkExperienceItemProps[] = [
     date: 'March 2024 - September 2024',
     location: 'I.T Department , P.I.C.T Pune',
     descriptions: [
-      "Developed the frontend of a platform for managing student and staff data using React.js, improving user experience and automating data entry processes to enhance accuracy and reduce manual input errors." ,
-      "Designed and optimized complex filtered queries for managing an extensive dataset with over 20+ filters, ensuring efficient data retrieval. Implemented robust authentication protocols to secure database access for PICT members. ",
-      "Successfully deployed and maintained the project for over 6 months, engaging 250+ active users. ", 
+      "Full-Stack Development: Architected a React.js frontend for a student/teacher data portal, automating 100% of data entry workflows and serving 250+ users." ,
+      "Performance Optimization: Designed 25+ filtered queries for dataset management, reducing query response time from 5 seconds to 1.5 seconds. ",
+      "Security Protocols: Implemented role-based access control and encrypted data transfers to safeguard sensitive PICT data. ", 
     ],
   },
   {
@@ -18,9 +18,9 @@ export const workExperienceConfig: WorkExperienceItemProps[] = [
     date: 'January 2025 -  Present',
     location: 'Pune',
     descriptions: [
-      "Backend Development: Engineered the backend architecture for Borgave Group’s Dairy ERP system, powering 3 active dairy branches with Node.js, Express.js, and MySQL." ,
-      "Minimized manual workload by 40% through automated inventory tracking, ensuring real-time stock updates and seamless data synchronization across multiple branches.",
-       
+      "Scalable Backend Architecture: Built a Node.js/Express.js backend for a Dairy ERP system, supporting 3 branches and 100+ concurrent users. Optimized RESTful APIs for a 50% faster data retrieval using MongoDB aggregation pipelines. " ,
+      "Database Design: Developed MongoDB models for structured data storage. Created pre-save functions to automate loan field updates for farmers, reducing manual errors by 30%. ",
+      "Security Implementation: Integrated JWT authentication and cookie-based session management to secure 50+ daily logins.", 
     ],
   }
 

@@ -2,18 +2,52 @@ import { ProjectItemProps } from "@/components/projects"
 
 
 export const projectsConfig :ProjectItemProps[]  =[
-     
   {
-    title: 'GitHub Repository Management Tool ',
-    date: 'September 2024',
-    techstack: 'Bash scripting, GitHub API, Git, Linux (Ubuntu), AWS EC2 ',
+    title: 'E-Commerce Microservices Platform',
+    date: 'March 2025',
+    techstack: 'React, GO, gRPC, Docker',
+    descriptions: [
+      "Microservices Architecture: Designed and implemented a comprehensive microservice system for a coffee shop using Go with the Gorilla framework for RESTful services and gRPC with Protocol Buffers, reducing API response times by 30% compared to monolithic designs." ,
+      "Frontend Development: Developed a responsive ReactJS application using Redux for state management and React Router for navigation, achieving a 25% improvement in user interface performance.",
+      "Containerization & File Handling: Engineered scalable file handling services for multi-part uploads and efficient image processing within a Docker environment.",
+     
+    ],
+    link: "",
+  },
+  {
+    title: 'Restaurant Management System ',
+    date: 'Feb 2025',
+    techstack: 'GO, Gin, MongoDB, JWT',
+    descriptions: [
+      "•	Full-Stack Backend Development: Built a scalable restaurant management system using Go, Gin, and MongoDB, featuring RESTful APIs for user authentication, order tracking, menu management, and invoicing." ,
+      "•	Security & Authorization: Implemented JWT-based authentication middleware to secure endpoints, ensuring role-based access control for admins, staff, and customers.",
+      "•	Core Functionality: Designed modules for real-time order processing, table reservations, and dynamic menu updates, improving operational efficiency by 30%.",
+    ],
+    link: "",
+  },
+  {
+    title: 'My GitHub Manager',
+    date: 'December 2024',
+    techstack: 'Bash scripting, GitHub API, Git, Linux (Ubuntu)',
     descriptions: [
       "Created a CLI-based tool for automating GitHub workflows, featuring seamless integration with the GitHub API." ,
-      "Deployed on AWS EC2, with secure user authentication, role-based access control, and efficient pull request monitoring.",
+      "Features: Secure user authentication, role-based access control, and efficient pull request monitoring.",
       "Automated repository tracking and project management tasks, reducing manual effort by 20%.",
       "Achieved 300+ downloads on npm, simplifying repository workflows for developers.", 
     ],
     link: "https://www.npmjs.com/package/my-github-manager",
+  },
+  {
+    title: 'Project Launcher',
+    date: 'Jan 2024',
+    techstack: 'Javascript, Node js',
+    descriptions: [
+      "A command-line tool to generate folder structures for various types of projects, including frontend and backend frameworks such as React, Next.js, Vue, Nuxt, Express, TypeScript and Angular." ,
+      "Provides default configuration files (like package.json, .gitignore, README.md) to get you started right away.",
+      "Offers an interactive CLI to guide you through selecting the project type and providing project details.",
+      "Easy to integrate into any development setup for faster project initialization.", 
+    ],
+    link: "https://www.npmjs.com/package/project-launcher",
   },
   {
     title: 'Car Showroom ERP System',

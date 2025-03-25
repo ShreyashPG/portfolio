@@ -13,7 +13,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Web Technologies',
     paragraphs: [
-      "React.js, Node.js, Express, HTML, CSS, Tailwind CSS ",
+      "React.js, Node.js, Express, GraphQL, HTML, CSS, Tailwind CSS ",
   
     ],
     folderColor: 'text-theme-green',
@@ -28,7 +28,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Databases',
     paragraphs: [
-      " MySQL, MongoDB, AWS DynamoDB, Redis",
+      " MySQL, MongoDB,PostgreSQL, AWS DynamoDB, Redis",
 
     ],
     folderColor: 'text-theme-blue',
