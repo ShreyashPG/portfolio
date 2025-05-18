@@ -2,21 +2,31 @@ import { ProjectItemProps } from "@/components/projects"
 
 
 export const projectsConfig :ProjectItemProps[]  =[
-  {
-    title: 'E-Commerce Microservices Platform',
-    date: 'March 2025',
-    techstack: 'React, GO, gRPC, Docker',
+
+   {
+    title: 'Flight Incident Reporting System',
+    date: 'May 2025 - May 2025',
+    techstack: 'React.js · Tailwind CSS · Node js · Express.js · FastAPI',
     descriptions: [
-      "Microservices Architecture: Designed and implemented a comprehensive microservice system for a coffee shop using Go with the Gorilla framework for RESTful services and gRPC with Protocol Buffers, reducing API response times by 30% compared to monolithic designs." ,
-      "Frontend Development: Developed a responsive ReactJS application using Redux for state management and React Router for navigation, achieving a 25% improvement in user interface performance.",
-      "Containerization & File Handling: Engineered scalable file handling services for multi-part uploads and efficient image processing within a Docker environment.",
+      "•	Architected a full-stack web application for flight incident management with role-based access for Crew, Pilot, Admin, Ground Staff, and Auditor, leveraging secure MongoDB-based session management with JWT and HTTP-only cookies to eliminate session hijacking risks and ensure enterprise-grade security." ,
+      `•	Engineered advanced features including rule-based incident classification (e.g., "engine failure" → "Engine Failure"), inline editing for Admin/Auditor, Excel export for actionable insights, and AI-driven incident risk forecasting using Facebook Prophet to predict incident probabilities (e.g., "30% chance of turbulence in 7 days").`,
+      "•	Pioneered a scalable, production-ready system with a robust MongoDB backend, optimized APIs, and planned integration of facebook/bart-large-mnli for zero-shot AI classification, simplified to rule-based logic due to Windows-specific tokenizers constraints, laying the foundation for future ML-driven safety enhancements.",
+    ],
+    link: "https://github.com/ShreyashPG/Flight-Incident-Reporting-System",
+  },
+    {
+    title: 'Aptitude CLI',
+    date: 'April 2025 - April 2025',
+    techstack: 'React.js · Tailwind CSS · Node js · Express.js · FastAPI',
+    descriptions: [
+      "The Aptitude CLI App is a command-line based interactive quiz tool built in Go, designed to help users practice aptitude questions categorized by difficulty levels. The app loads questions from a structured Aptitude.json file and offers multiple test modes including: 1. Time-bound tests 2. Randomized quizzes 3. Difficulty-level based quizzes (Easy, Medium, Hard)" ,
      
     ],
-    link: "",
+    link: "https://github.com/ShreyashPG/aptitude-cli",
   },
   {
-    title: 'Restaurant Management System ',
-    date: 'Feb 2025',
+    title: 'Restaurant Management API ',
+    date: 'Jan 2025 - Jan 2025',
     techstack: 'GO, Gin, MongoDB, JWT',
     descriptions: [
       "•	Full-Stack Backend Development: Built a scalable restaurant management system using Go, Gin, and MongoDB, featuring RESTful APIs for user authentication, order tracking, menu management, and invoicing." ,
@@ -51,7 +61,7 @@ export const projectsConfig :ProjectItemProps[]  =[
   },
   {
     title: 'Car Showroom ERP System',
-    date: ' December 2024',
+    date: ' Nov 2024 - Dec 2024',
     techstack: ' React, Express.js, Node.js, MySQL, Tailwind CSS ',
     descriptions: [
       "Designed a modular ERP system to streamline car showroom operations" ,
@@ -85,12 +95,10 @@ export const projectsConfig :ProjectItemProps[]  =[
       },
       { 
         title: 'Gym App',
-        date: 'November 2024',
+        date: 'October 2024',
         techstack: 'Typescript , Tailwind CSS',
         descriptions: [
-          "Developed a landing page for gym app using Typescript and Tailwind " ,
-          // "Implemented RESTful APIs using Node.js and Express.js to handle user authentication, data retrieval, and CRUD operations.",
-          // "Tools and Libraries: Integrated tools such as Axios for HTTP requests, Bcrypt for password hashing, and Mongoose for MongoDB object modelling", 
+          "Developed a landing page for gym app using Typescript and Tailwind " , 
         ],
         link: ""
       }
