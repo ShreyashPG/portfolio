@@ -24,17 +24,42 @@ export const projectsConfig :ProjectItemProps[]  =[
     ],
     link: "https://github.com/ShreyashPG/aptitude-cli",
   },
-  {
-    title: 'Restaurant Management API ',
-    date: 'Jan 2025 - Jan 2025',
-    techstack: 'GO, Gin, MongoDB, JWT',
+   {
+    title: 'Car Showroom ERP System',
+    date: ' Apr 2025 - May 2025',
+    techstack: ' React, Redux Express.js, Node.js, MySQL, Tailwind CSS ',
     descriptions: [
-      "•	Full-Stack Backend Development: Built a scalable restaurant management system using Go, Gin, and MongoDB, featuring RESTful APIs for user authentication, order tracking, menu management, and invoicing." ,
-      "•	Security & Authorization: Implemented JWT-based authentication middleware to secure endpoints, ensuring role-based access control for admins, staff, and customers.",
-      "•	Core Functionality: Designed modules for real-time order processing, table reservations, and dynamic menu updates, improving operational efficiency by 30%.",
+      "Designed a modular ERP system to streamline car showroom operations" ,
+      "Implemented a component-based architecture in React for efficient UI management and Tailwind CSS for consistent, responsive design.",
+      "Integrated REST APIs with Express.js and Node.js for real-time operations and MySQL for secure, relational data management.",
+      "Developed robust CRUD functionalities for employee, inventory, and sales tracking, ensuring seamless process automation.", 
     ],
-    link: "",
+    link: "https://car-showroom-frontend-sfie.vercel.app"
   },
+  
+  {
+        title: 'Shadow Secret',
+        date: ' Nov 2024 - Dec 2024',
+        techstack: 'Full Stack Project',
+        descriptions: [
+          "Built a highly secure text-sharing platform with end-to-end AES-256 encryption and robust data validation in TypeScript." ,
+          "Utilized Prisma ORM for optimized database queries and MongoDB for efficient, scalable data storage.",
+          "Developed expiration-based message auto-deletion and advanced password-protected message sharing to enhance security.", 
+        ],
+        link: "https://secret-pass-lovat.vercel.app/"
+      },
+ 
+    {
+        title: 'Process Scheduler',
+        date: ' July 2024',
+        techstack: 'React.js ',
+        descriptions: [
+          "Web-based process scheduler application built in React.js that allows users to visualize and analyze various CPU scheduling" ,
+          "The application supports multiple scheduling algorithms, including: FCFS (First-Come, FirstServed), Round Robin, Priority Scheduling, SJF (Shortest Job First)",
+          "Key Features : Gantt Chart Generation, Performance Metrics Table, Comparison of Algorithms.", 
+        ],
+        link: "https://scheduler-flax-five.vercel.app"
+      },
   {
     title: 'My GitHub Manager',
     date: 'December 2024',
@@ -47,9 +72,9 @@ export const projectsConfig :ProjectItemProps[]  =[
     ],
     link: "https://www.npmjs.com/package/my-github-manager",
   },
-  {
+      {
     title: 'Project Launcher',
-    date: 'Jan 2024',
+    date: 'Jan 2025',
     techstack: 'Javascript, Node js',
     descriptions: [
       "A command-line tool to generate folder structures for various types of projects, including frontend and backend frameworks such as React, Next.js, Vue, Nuxt, Express, TypeScript and Angular." ,
@@ -58,49 +83,6 @@ export const projectsConfig :ProjectItemProps[]  =[
       "Easy to integrate into any development setup for faster project initialization.", 
     ],
     link: "https://www.npmjs.com/package/project-launcher",
-  },
-  {
-    title: 'Car Showroom ERP System',
-    date: ' Nov 2024 - Dec 2024',
-    techstack: ' React, Express.js, Node.js, MySQL, Tailwind CSS ',
-    descriptions: [
-      "Designed a modular ERP system to streamline car showroom operations" ,
-      "Implemented a component-based architecture in React for efficient UI management and Tailwind CSS for consistent, responsive design.",
-      "Integrated REST APIs with Express.js and Node.js for real-time operations and MySQL for secure, relational data management.",
-      "Developed robust CRUD functionalities for employee, inventory, and sales tracking, ensuring seamless process automation.", 
-    ],
-    link: ""
-  },
-    {
-        title: 'Process Scheduler',
-        date: ' July 2024',
-        techstack: 'React.js ',
-        descriptions: [
-          "Web-based process scheduler application built in React.js that allows users to visualize and analyze various CPU scheduling" ,
-          "The application supports multiple scheduling algorithms, including: FCFS (First-Come, FirstServed), Round Robin, Priority Scheduling, SJF (Shortest Job First)",
-          "Key Features : Gantt Chart Generation, Performance Metrics Table, Comparison of Algorithms.", 
-        ],
-        link: "https://scheduler-flax-five.vercel.app"
-      },
-      {
-        title: 'Shadow Secret',
-        date: ' February 2024',
-        techstack: 'Full Stack Project',
-        descriptions: [
-          "Built a highly secure text-sharing platform with end-to-end AES-256 encryption and robust data validation in TypeScript." ,
-          "Utilized Prisma ORM for optimized database queries and MongoDB for efficient, scalable data storage.",
-          "Developed expiration-based message auto-deletion and advanced password-protected message sharing to enhance security.", 
-        ],
-        link: "https://secret-pass-lovat.vercel.app/"
-      },
-      { 
-        title: 'Gym App',
-        date: 'October 2024',
-        techstack: 'Typescript , Tailwind CSS',
-        descriptions: [
-          "Developed a landing page for gym app using Typescript and Tailwind " , 
-        ],
-        link: ""
-      }
+  }
 
 ]
