@@ -4,13 +4,34 @@ import { ProjectItemProps } from "@/components/projects"
 export const projectsConfig :ProjectItemProps[]  =[
 
    {
+    title: 'FixThisBug – Open Source Bug Explorer',
+    date: 'June 2025 - June 2025',
+    techstack: 'MongoDB · Express.js · React.js · Node.js · (MERN Stack)',
+    descriptions: [
+      "	FixThisBug is a full-stack web platform that helps open source contributors find real bugs and issues from GitHub repositories, filtered by language, difficulty, and labels." ,
+      `	It enables developers to search for relevant repositories, while allowing maintainers and open source organizations to submit their GitHub projects to feature them on the platform.`,
+      `	Key Features:
+
+🔍 Smart Search: Filter bugs by language, difficulty, and tags.
+
+📦 Repository Submission: GitHub repo owners can submit their projects with bug details.
+
+📊 Language & Issue Analytics: View bug trends across languages.
+
+🛡️ Security & Rate Limiting: Protected API with JWT, Helmet, and request throttling.
+
+☁️ RESTful API & MongoDB: Efficient backend architecture using Express and Mongoose.`,
+    ],
+    link: "https://fixthisbug.vercel.app/",
+  },
+   {
     title: 'Flight Incident Reporting System',
     date: 'May 2025 - May 2025',
     techstack: 'React.js · Tailwind CSS · Node js · Express.js · FastAPI',
     descriptions: [
-      "•	Architected a full-stack web application for flight incident management with role-based access for Crew, Pilot, Admin, Ground Staff, and Auditor, leveraging secure MongoDB-based session management with JWT and HTTP-only cookies to eliminate session hijacking risks and ensure enterprise-grade security." ,
-      `•	Engineered advanced features including rule-based incident classification (e.g., "engine failure" → "Engine Failure"), inline editing for Admin/Auditor, Excel export for actionable insights, and AI-driven incident risk forecasting using Facebook Prophet to predict incident probabilities (e.g., "30% chance of turbulence in 7 days").`,
-      "•	Pioneered a scalable, production-ready system with a robust MongoDB backend, optimized APIs, and planned integration of facebook/bart-large-mnli for zero-shot AI classification, simplified to rule-based logic due to Windows-specific tokenizers constraints, laying the foundation for future ML-driven safety enhancements.",
+      "	Architected a full-stack web application for flight incident management with role-based access for Crew, Pilot, Admin, Ground Staff, and Auditor, leveraging secure MongoDB-based session management with JWT and HTTP-only cookies to eliminate session hijacking risks and ensure enterprise-grade security." ,
+      `	Engineered advanced features including rule-based incident classification (e.g., "engine failure" → "Engine Failure"), inline editing for Admin/Auditor, Excel export for actionable insights, and AI-driven incident risk forecasting using Facebook Prophet to predict incident probabilities (e.g., "30% chance of turbulence in 7 days").`,
+      "	Pioneered a scalable, production-ready system with a robust MongoDB backend, optimized APIs, and planned integration of facebook/bart-large-mnli for zero-shot AI classification, simplified to rule-based logic due to Windows-specific tokenizers constraints, laying the foundation for future ML-driven safety enhancements.",
     ],
     link: "https://github.com/ShreyashPG/Flight-Incident-Reporting-System",
   },
