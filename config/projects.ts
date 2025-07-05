@@ -4,6 +4,19 @@ import { ProjectItemProps } from "@/components/projects"
 export const projectsConfig :ProjectItemProps[]  =[
 
    {
+    title: 'Distributed Chat Application',
+    date: ' June 2025 - June 2025',
+    techstack: ' React, Express.js, Node.js, MongoDB, Redis, AWS, HAProxy, Docker, Tailwind CSS ',
+    descriptions: [
+      "Built a scalable, distributed real-time chat application supporting personal, group, global messaging using Socket.io and Express.js." ,
+      "Implemented Redis Pub/Sub for real-time synchronization across load-balanced backend servers, enabling consistent room/user/message updates without database polling. ",
+      "Used HAProxy for horizontal scalability with round-robin load balancing and MongoDB for chat message persistence.",
+      "Developed a responsive frontend in React.js and containerized the entire stack with Docker & Docker Compose for seamless development and deployment. ", 
+    ],
+    link: "https://distributed-chat-application-rho.vercel.app/"
+  },
+
+   {
     title: 'FixThisBug – Open Source Bug Explorer',
     date: 'June 2025 - June 2025',
     techstack: 'MongoDB · Express.js · React.js · Node.js · (MERN Stack)',
@@ -48,7 +61,7 @@ export const projectsConfig :ProjectItemProps[]  =[
    {
     title: 'Car Showroom ERP System',
     date: ' Apr 2025 - May 2025',
-    techstack: ' React, Redux Express.js, Node.js, MySQL, Tailwind CSS ',
+    techstack: ' React, Redux, Express.js, Node.js, MySQL, Tailwind CSS ',
     descriptions: [
       "Designed a modular ERP system to streamline car showroom operations" ,
       "Implemented a component-based architecture in React for efficient UI management and Tailwind CSS for consistent, responsive design.",
