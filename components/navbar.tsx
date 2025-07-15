@@ -65,14 +65,14 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
           {showMobileMenu && navItems && (
             <MobileNav navItems={navItems}>
             {children}
-            <Link
+            {/* <Link
               href="https://shreyash-ghanekar.tiiny.site/"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
             >
               Resume
-            </Link>
+            </Link> */}
           </MobileNav>
           )}
         </div>

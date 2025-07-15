@@ -4,6 +4,7 @@ import { ProjectItem } from '@/components/projects';
 import { Section } from '@/components/section';
 import { SkillsItem } from '@/components/skills-item';
 import { WorkExperienceItem } from '@/components/work-experience-item';
+import { SocialLinks } from '@/components/social-links';
 
 import { aboutMeConfig } from '@/config/about-me';
 import { projectsConfig } from '@/config/projects';
@@ -15,7 +16,8 @@ export default function IndexPage() {
     <>
       <div id="content" className="mx-auto px-8 md:w-2/3">
         <Hero />
-        <div className="flex flex-col gap-12">
+        <SocialLinks />
+        <div className="mt-12 flex flex-col gap-12">
           <Section id="about-me" title="About Me">
             {aboutMeConfig.map((aboutMeItem, index) => (
               <AboutMeItem key={index} {...aboutMeItem} />
