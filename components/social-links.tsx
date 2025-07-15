@@ -3,8 +3,8 @@ import { siteConfig } from '@/config/site';
 
 export function SocialLinks() {
   return (
-    <section className="mt-12 px-4 sm:px-8 lg:px-16">
-      <h2 className="mb-4 text-2xl font-bold text-highlight">{'//'} Connect with me</h2>
+    <section className="mt-24 px-4 sm:px-8 lg:px-16">
+      <h2 className="mt-8 mb-4 text-2xl font-bold text-highlight">{'//'} Connect with me</h2>
       
       <div className="space-y-4 text-sm">
         {/* GitHub */}
