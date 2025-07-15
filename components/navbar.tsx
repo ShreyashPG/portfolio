@@ -46,6 +46,14 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
                 {navItem.title}
               </Link>
             ))}
+             <Link
+              href="https://medium.com/@shreyasghanekar35"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
+            >
+              Medium
+            </Link>
             {/* <Link
               href="https://shreyash-ghanekar.tiiny.site/"
               target="_blank"
@@ -65,7 +73,15 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
           {showMobileMenu && navItems && (
             <MobileNav navItems={navItems}>
             {children}
-            {/* <Link
+            <Link
+              href="https://medium.com/@shreyasghanekar35"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
+            >
+              Medium
+            </Link>
+             {/* <Link
               href="https://shreyash-ghanekar.tiiny.site/"
               target="_blank"
               rel="noopener noreferrer"
