@@ -72,39 +72,6 @@ export const projectsConfig :ProjectItemProps[]  =[
           "Supports direct input, file input, and piping — works cross-platform with color-coded output.", 
         ],
         link: "https://www.npmjs.com/package/folder-generator"
-      },
-
-  {
-    title: 'My GitHub Manager',
-    date: 'December 2024',
-    techstack: 'Bash scripting, GitHub API, Git, Linux (Ubuntu)',
-    descriptions: [
-      "Created a CLI-based tool for automating GitHub workflows, featuring seamless integration with the GitHub API." ,
-      "Features: Secure user authentication, role-based access control, and efficient pull request monitoring.",
-      "Automated repository tracking and project management tasks, reducing manual effort by 20%.",
-      "Achieved 300+ downloads on npm, simplifying repository workflows for developers.", 
-    ],
-    link: "https://www.npmjs.com/package/my-github-manager",
-  },  {
-    title: 'FixThisBug – Open Source Bug Explorer',
-    date: 'June 2025 - June 2025',
-    techstack: 'MongoDB · Express.js · React.js · Node.js · (MERN Stack)',
-    descriptions: [
-      "	FixThisBug is a full-stack web platform that helps open source contributors find real bugs and issues from GitHub repositories, filtered by language, difficulty, and labels." ,
-      `	It enables developers to search for relevant repositories, while allowing maintainers and open source organizations to submit their GitHub projects to feature them on the platform.`,
-      `	Key Features:
-
-🔍 Smart Search: Filter bugs by language, difficulty, and tags.
-
-📦 Repository Submission: GitHub repo owners can submit their projects with bug details.
-
-📊 Language & Issue Analytics: View bug trends across languages.
-
-🛡️ Security & Rate Limiting: Protected API with JWT, Helmet, and request throttling.
-
-☁️ RESTful API & MongoDB: Efficient backend architecture using Express and Mongoose.`,
-    ],
-    link: "https://fixthisbug.vercel.app/",
-  }
+      }
 
 ]
