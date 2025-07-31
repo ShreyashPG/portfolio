@@ -5,7 +5,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Programming Languages:',
     paragraphs: [
-      " C, C++, Java, Python, Go, JavaScript, TypeScript, SQL, Bash",
+      " C++, JavaScript, TypeScript, Java, Go ",
 
     ],
     folderColor: 'text-theme-blue',
@@ -13,7 +13,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Web Technologies',
     paragraphs: [
-      "React.js, Node.js, Express, GraphQL, HTML, CSS, Tailwind CSS ",
+      "React.js, Node.js, Express.js, Gin, HTML, CSS, Tailwind CSS ",
   
     ],
     folderColor: 'text-theme-green',
@@ -28,7 +28,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Databases',
     paragraphs: [
-      " MySQL, MongoDB,PostgreSQL, AWS DynamoDB, Redis",
+      " MySQL, MongoDB, PostgreSQL, Redis",
 
     ],
     folderColor: 'text-theme-blue',
@@ -36,7 +36,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Software Development',
     paragraphs: [
-      " Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA)",
+      " Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA), REST API, Database Design",
 
     ],
     folderColor: 'text-theme-green',
@@ -44,7 +44,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Tools',
     paragraphs: [
-      " Postman, Git, GitHub, Linux (Ubuntu), Prisma ORM, JIRA",
+      " Postman, Git, GitHub, JIRA",
 
     ],
     folderColor: 'text-theme-red',

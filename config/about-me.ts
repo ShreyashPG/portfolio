@@ -5,7 +5,7 @@ export const aboutMeConfig: AboutMeItemProps[] = [
     title: 'Bio',
     paragraphs: [
       "Hi, I'm Shreyash Ghanekar,  from  Pune.",
-      'Currently in my 3rd year persuing my Bachelors in Information Technology in Pune Institute of Computer Technology, I enjoy solving DSA problems and creating web applications.',
+      'Currently in  my final year Bachelors in Information Technology in Pune Institute of Computer Technology, I enjoy solving DSA problems and creating web applications.',
       'Fascinated by remarkable software practices and engineering excellence, my belief in following good coding conventions remains unwavering.',
     ],
     folderColor: 'text-theme-blue',
