@@ -47,21 +47,21 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
               </Link>
             ))}
              <Link
-              href="https://medium.com/@shreyasghanekar35"
+              href="https://drive.google.com/file/d/1jPeaRi7-nyvECPmgXHPtNxZggobcZ54F/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
             >
               Medium
             </Link>
-            {/* <Link
-              href="https://shreyash-ghanekar.tiiny.site/"
+            <Link
+              href="https://drive.google.com/file/d/1jPeaRi7-nyvECPmgXHPtNxZggobcZ54F/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
             >
               Resume
-            </Link> */}
+            </Link>
           </nav>
           <button
             className="flex items-center space-x-2 md:hidden"
@@ -81,14 +81,14 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
             >
               Medium
             </Link>
-             {/* <Link
+             <Link
               href="https://shreyash-ghanekar.tiiny.site/"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
             >
               Resume
-            </Link> */}
+            </Link>
           </MobileNav>
           )}
         </div>
