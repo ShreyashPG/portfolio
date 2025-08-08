@@ -55,7 +55,7 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
               Medium
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1jPeaRi7-nyvECPmgXHPtNxZggobcZ54F/view"
+              href="https://medium.com/@shreyasghanekar35"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
@@ -82,7 +82,7 @@ export function Navbar({ navItems, children, className }: NavbarProps) {
               Medium
             </Link>
              <Link
-              href="https://shreyash-ghanekar.tiiny.site/"
+              href="https://drive.google.com/file/d/1jPeaRi7-nyvECPmgXHPtNxZggobcZ54F/view"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-lg font-medium transition-colors hover:text-hover sm:text-sm text-foreground/80"
