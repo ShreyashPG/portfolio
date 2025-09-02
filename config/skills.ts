@@ -21,7 +21,7 @@ export const skillsConfig: SkillsItemProps[] = [
   {
     title: 'Cloud & Infrastructure',
     paragraphs: [
-      'AWS, Docker',
+      'AWS, Docker, CI/CD, GitHub Actions',
     ],
     folderColor: 'text-theme-red',
   },

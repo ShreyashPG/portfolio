@@ -1,30 +1,58 @@
+// import { WorkExperienceItemProps } from '@/components/work-experience-item';
+
+// export const workExperienceConfig: WorkExperienceItemProps[] = [
+//    {
+//     company: 'Borgave Group',
+//     title: 'Backend Developer',
+//     date: 'January 2025 -  Apr 2025',
+//     location: 'Borgave Group',
+   
+//      descriptions: [
+//       "Built a Node.js/Express.js backend for a Dairy ERP system, supporting 3 branches and 100+ concurrent users. Utilized WebSockets to provide real-time updates of available products to customers." ,
+//       "Designed and implemented MongoDB data models for scalable storage and efficient access.",
+//       "Integrated JWT authentication and cookie-based session management to secure 50+ daily logins.", 
+//     ],
+//   },
+//   {
+//     company: 'Pune Institute of Computer Technology',
+//     title: 'Full Stack Developer Intern',
+//     date: 'April 2024 - October 2024',
+//     location: 'I.T Department , P.I.C.T Pune',
+//      descriptions: [
+//       "Architected a React.js frontend for a student/teacher data portal, serving 250+ users." ,
+//       "Wrote 25+ optimized SQL queries to enhance data retrieval performance. Also implemented role-based access control and encrypted data transfers to safeguard sensitive PICT data.",
+//       "Successfully deployed and maintained the project for over 6 months along with integrating new requirements.", 
+//     ],
+   
+//   }
+ 
+
+// ];
 import { WorkExperienceItemProps } from '@/components/work-experience-item';
 
 export const workExperienceConfig: WorkExperienceItemProps[] = [
-   {
+  {
     company: 'Borgave Group',
-    title: 'Backend Developer',
-    date: 'January 2025 -  March 2025',
-    location: 'Borgave Group',
-   
-     descriptions: [
-      "Built a Node.js/Express.js backend for a Dairy ERP system, supporting 3 branches and 100+ concurrent users. Utilized WebSockets to provide real-time updates of available products to customers." ,
-      "Designed and implemented MongoDB data models for scalable storage and efficient access.",
-      "Integrated JWT authentication and cookie-based session management to secure 50+ daily logins.", 
+    title: 'Backend Developer Intern',
+    date: 'January 2025 - Apr 2025',
+    location: 'Borgave Group, Pune',
+    descriptions: [
+      "Developed an Express.js backend for a Dairy ERP system with user, product, and branch models.",
+      "Integrated WebSockets for real-time inventory updates; reduced product info latency by 30%.",
+      "Generated PDF reports of milk transactions using PDFKit and hosted static assets via Cloudinary.",
+      "Implemented MongoDB schemas and JWT + cookie-based auth for secure daily access."
     ],
   },
   {
     company: 'Pune Institute of Computer Technology',
     title: 'Full Stack Developer Intern',
     date: 'April 2024 - October 2024',
-    location: 'I.T Department , P.I.C.T Pune',
-     descriptions: [
-      "Architected a React.js frontend for a student/teacher data portal, serving 250+ users." ,
-      "Wrote 25+ optimized SQL queries to enhance data retrieval performance. Also implemented role-based access control and encrypted data transfers to safeguard sensitive PICT data.",
-      "Successfully deployed and maintained the project for over 6 months along with integrating new requirements.", 
+    location: 'I.T Department, P.I.C.T Pune',
+    descriptions: [
+      "Architected a React.js frontend for a student-teacher data portal, developing teacher and student interfaces.",
+      "Authored 40+ SQL queries for advanced data filtering and Excel report generation.",
+      "Integrated email notifications using Twilio Sendgrid and enforced RBAC to protect sensitive institutional data.",
+      "Deployed & maintained the portal for 6+ months, ensuring uptime and integrating feedback-driven features."
     ],
-   
   }
- 
-
 ];

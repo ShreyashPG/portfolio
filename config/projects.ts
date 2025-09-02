@@ -4,6 +4,39 @@ import { ProjectItemProps } from "@/components/projects"
 export const projectsConfig :ProjectItemProps[]  =[
 
    {
+    title: 'Resume Builder',
+    date: '2025 - 2025',
+    techstack: 'React.js, Express.js, MongoDB, Firebase, Redux, Vercel, Render',
+    descriptions: [
+      "Developed a full-stack MERN application with Firebase authentication, Redux state management, responsive design, professional templates, and one-click PDF download.",
+      "Provides a streamlined interface to build and manage all key resume sections such as profile, education, and skills.",
+      "Deployed a modern cloud architecture using Vercel (frontend), Render (backend) and MongoDB Atlas (database)."
+    ],
+    link: "https://resume-builder-shreyashpgs-projects.vercel.app/"
+  },
+  {
+    title: 'Redis C++ Server',
+    date: '2025 - 2025',
+    techstack: 'C++, TCP Sockets, Multithreading, RESP Protocol, File I/O',
+    descriptions: [
+      "Developed lightweight, Redis-compatible in-memory data store in C++ supporting multi-client concurrency via TCP sockets and RESP protocol.",
+      "Implemented comprehensive Redis commands for key-value, list, and hash data types with periodic disk persistence and graceful shutdowns for data durability.",
+      "Engineered multithreaded server architecture with per-client threads and std::mutex for synchronized access."
+    ],
+    link: "https://github.com/ShreyashPG/Redis-Server"
+  },
+  {
+    title: 'Log Collection & Monitoring Platform',
+    date: '2025 - 2025',
+    techstack: 'Go, MongoDB, Fluentd, Alertmanager, CI/CD',
+    descriptions: [
+      "Developed scalable backend system using Go (Gin framework) with RESTful APIs for log ingestion, data processing, and health metrics collection using MongoDB for efficient storage and analytics.",
+      "Integrated Fluentd for log collection and implemented real-time monitoring and alerting infrastructure with Alertmanager for email notifications."
+    ],
+    link: "https://github.com/ShreyashPG/Log_Aggregation_And_Health_Monitoring_System"
+  },
+
+   {
     title: 'Distributed Chat Application',
     date: ' June 2025 - June 2025',
     techstack: ' React, Express.js, Node.js, MongoDB, Redis, AWS, HAProxy, Docker, Tailwind CSS ',
